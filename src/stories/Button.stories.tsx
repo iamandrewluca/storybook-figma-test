@@ -11,6 +11,12 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
+	parameters: {
+		design: {
+			 type: 'figma',
+			 url: 'https://www.figma.com/file/RpMpLeNKFpQmh9w3HhJj9T/Storybook-Test?node-id=1%3A10&t=1vxevtfjtrFN7p8K-4'
+		}
+ },
 } as ComponentMeta<typeof Button>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
